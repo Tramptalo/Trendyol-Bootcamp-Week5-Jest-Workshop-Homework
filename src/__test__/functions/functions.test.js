@@ -12,7 +12,7 @@ describe('divideIt function should take two number and should return result of t
     expect(result).toBe(2);
   });
 
-  it('should throw an error if the dividend is 0', () => {
+  it('should throw an error if the dividend is not a number', () => {
     let firstNumber = 'not a number';
     let secondNumber = 10;
     
@@ -21,7 +21,7 @@ describe('divideIt function should take two number and should return result of t
     );
   });
 
-  it('should throw an error if the divisor is 0', () => {
+  it('should throw an error if the divisor is not a number', () => {
     let firstNumber = 10;
     let secondNumber = 'not a number';
     expect(() => functions.divideIt(firstNumber, secondNumber)).toThrowError(
@@ -29,7 +29,7 @@ describe('divideIt function should take two number and should return result of t
     );
   });
 
-  it('should throw an error if the dividend is 0', () => {
+  it('should throw an error if the divisor is 0', () => {
     let firstNumber = 10;
     let secondNumber = 0;
     expect(() => functions.divideIt(firstNumber, secondNumber)).toThrowError(
@@ -42,13 +42,6 @@ describe('convertTitleCase function', () => {
   it('should return parameter to Title Case', () => {
     let titleValue = 'test';
     expect(functions.convertTitleCase(titleValue)).toBe('Test');
-  });
-
-  it('should return parameter to Title Case even if it has more than one word', () => {
-    let titleValue = 'test it again with more than one word';
-    expect(functions.convertTitleCase(titleValue)).toBe(
-      'Test It Again With More Than One Word'
-    );
   });
 });
 
