@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628036710235" clover="3.2.0">
-  <project timestamp="1628036710235" name="All files">
-    <metrics statements="29" coveredstatements="29" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5" elements="44" coveredelements="44" complexity="0" loc="29" ncloc="29" packages="2" files="3" classes="3"/>
+<coverage generated="1628116456428" clover="3.2.0">
+  <project timestamp="1628116456428" name="All files">
+    <metrics statements="29" coveredstatements="29" conditionals="12" coveredconditionals="12" methods="5" coveredmethods="5" elements="46" coveredelements="46" complexity="0" loc="29" ncloc="29" packages="2" files="3" classes="3"/>
     <package name="functions">
       <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
-      <file name="functions.js" path="C:\Users\excalibur\OneDrive\Masaüstü\Yeni klasör (3)\Trendyol-Bootcamp-Week5-Jest-Workshop-Homework\src\functions\functions.js">
+      <file name="functions.js" path="C:\Users\excalibur\OneDrive\Masaüstü\TRENDYOL\trendyol-test\Trendyol-Bootcamp-Week5-Jest-Workshop-Homework\src\functions\functions.js">
         <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="7" count="4" type="stmt"/>
@@ -20,16 +20,16 @@
       </file>
     </package>
     <package name="services">
-      <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <file name="post-provider.js" path="C:\Users\excalibur\OneDrive\Masaüstü\Yeni klasör (3)\Trendyol-Bootcamp-Week5-Jest-Workshop-Homework\src\services\post-provider.js">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="post-provider.js" path="C:\Users\excalibur\OneDrive\Masaüstü\TRENDYOL\trendyol-test\Trendyol-Bootcamp-Week5-Jest-Workshop-Homework\src\services\post-provider.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="7" type="stmt"/>
         <line num="5" count="7" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
+        <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="post-service.js" path="C:\Users\excalibur\OneDrive\Masaüstü\Yeni klasör (3)\Trendyol-Bootcamp-Week5-Jest-Workshop-Homework\src\services\post-service.js">
+      <file name="post-service.js" path="C:\Users\excalibur\OneDrive\Masaüstü\TRENDYOL\trendyol-test\Trendyol-Bootcamp-Week5-Jest-Workshop-Homework\src\services\post-service.js">
         <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="4" type="stmt"/>

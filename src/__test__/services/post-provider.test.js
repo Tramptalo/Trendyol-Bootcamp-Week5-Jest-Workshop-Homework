@@ -19,7 +19,7 @@ describe('Post provider tests', function() {
         const expectedData = [];
         const expectedStatusCode = 200;
 
-        sandbox.stub(axios, 'get').resolves(Promise.reject({ status: expectedStatusCode }));
+        sandbox.stub(axios, 'get').resolves(Promise.resolve({ status: expectedStatusCode })); 
 
         return getAllPosts().then(result => {
             expect(result).toEqual(expectedData);
